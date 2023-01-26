@@ -1,0 +1,165 @@
+main{
+    display: grid;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav img{
+    margin-top: 15px;
+    height: 20px;
+}
+nav{
+   display: flex;
+   justify-content: space-evenly;
+}
+nav ul li a{
+    color: black;
+    margin-left: 30px;
+    width: 40%;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul{
+    list-style-type: none;
+    display:flex; 
+    justify-content: center;
+}
+nav .n1{
+    margin-top: 20px;
+    font-weight:lighter;
+    margin-right:100px;
+}
+nav #b{
+    margin-left: -150px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 7px 40px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 2px solid rgb(246, 240, 240);
+}
+header{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    height: 50vh;
+}
+header div{
+    margin-top: 8%;
+}
+header div p{
+    color: grey;
+}
+iframe{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left:12%;
+}
+.br{
+    display: flex;
+    justify-content: center;
+}
+.br div{
+    margin: 10px;
+}
+.br a{
+    color:black;
+    font-weight: bold;
+}
+.br i{
+    color:royalblue;
+    font-weight: 900;
+    margin: 3px;
+}
+.br dd{
+    color: grey;
+}
+.br .des ul{
+    list-style-type: none;
+
+}
+.br .inp{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.inp input{
+    margin-bottom: 20px;
+    color: aliceblue;
+    border: none;
+    background-color: rgba(228, 227, 227, 0.868);
+    padding: 7px 15px;
+    margin-right: 20px;
+}
+.tx{
+    display: flex;
+    flex-direction: column;
+}
+#tx{
+    border: none;
+    width: 400px;
+    background-color: rgba(228, 227, 227, 0.868);
+    padding: 7px 15px;
+    margin-right: 20px;
+    height: 100px;
+    margin-bottom: 34px;
+    margin-top: 22px;
+}
+.tx input[type="submit"]{
+    background-color: rgb(42, 86, 221);
+    color: aliceblue;
+    width: 150px;
+    margin-left: 280px;
+    border: none;
+    padding: 10px;
+}
+footer{
+    overflow: hidden;
+    padding: 90px;
+    color: white;
+    display: grid;
+    background-color: rgb(16, 47, 94);
+    grid-template-columns: repeat(4,220px);
+    justify-content: center;
+    gap:10px 50px;
+    text-align: left;
+}
+footer div{
+    text-align: left;
+}
+footer a{
+    color: darkgray;
+}
+footer .img{
+    display: grid;
+    grid-template-columns: repeat(2,65px) ;
+    gap: 9px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer i{
+    
+    
+    color: rgb(0, 30, 255);
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+}
+dt a{
+    color: white;
+}
+dd{
+    color: darkgray;
+}
+footer>div p{
+    color: darkgray;
+
+}
+footer li{
+    margin-left: -30px;
+}

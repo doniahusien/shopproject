@@ -1,0 +1,178 @@
+main{
+    display: grid;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav img{
+    margin-top: 15px;
+    height: 20px;
+}
+nav{
+   display: flex;
+   justify-content: space-evenly;
+}
+nav ul li a{
+    color: black;
+    margin-left: 30px;
+    width: 40%;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul{
+    list-style-type: none;
+    display:flex; 
+    justify-content: center;
+}
+nav .n1{
+    margin-top: 20px;
+    font-weight:lighter;
+    margin-right:100px;
+}
+nav #b{
+    margin-left: -150px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 7px 40px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 2px solid rgb(246, 240, 240);
+}
+header{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    height: 50vh;
+}
+header div{
+    margin-top: 8%;
+}
+header div p{
+    color: grey;
+}
+.log{
+    margin-top: 60px;
+    display: flex; 
+    justify-content: center;
+}
+.login{
+    box-shadow: 1px 2px 2px rgb(213, 211, 211);
+    display: flex;
+    flex-direction: column;
+    height:210px;
+    padding:20vh 40px;
+    width: 450px;
+    background-color: rgb(255, 251, 247);
+} 
+.login .t {
+    float: left;
+   margin-left: 50px;
+    margin-top: 40px;
+    border: 0px;
+    border: 1px rgb(227, 225, 225) solid;
+    border-width: 0px 0px 1px;
+    background-color:  rgb(255, 251, 247);
+}
+.login input[type="checkbox"]{
+    margin-left: 10px;
+}
+.login label{
+    margin: 0px;
+    width: 150px;
+    position: relative;
+   bottom: 67px;
+   left: 79px;
+    color: rgb(134, 134, 134);
+}
+.login input[type=submit]{
+   border-radius: 50px;
+   width: 78%;
+   margin: auto;
+   padding: 12px;
+   border: none;
+    color: aliceblue;
+    background-color: rgb(75, 75, 225);
+}
+.login a{
+    color: rgb(134, 134, 134);
+    margin: auto;
+    padding-top: 20px;
+}
+.login #check{
+    display: inline-block;
+    margin:50px 10px;
+    width: 100px;
+}
+.login h2{
+    text-align: center;
+    margin-top: -90px;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.create p{
+    color: rgb(230, 230, 230);
+    width:400px;
+}
+.create{
+    height:210px;
+    padding:20vh 40px;
+    background-color: rgb(75, 75, 225);
+    color: white;
+    text-align: center;
+}
+.create a{
+    display: inline-block;
+color: aliceblue;
+margin-top: 10px;
+    padding: 7px 30px;
+    border-radius: 20px;
+    border: 1px rgb(255, 255, 255) solid;
+}
+footer{
+    margin-top: 70px;
+    overflow: hidden;
+    padding: 90px;
+    color: white;
+    display: grid;
+    background-color: rgb(16, 47, 94);
+    grid-template-columns: repeat(4,220px);
+    justify-content: center;
+    gap:10px 50px;
+    text-align: left;
+}
+footer div{
+    text-align: left;
+}
+footer a{
+    color: darkgray;
+}
+footer .img{
+    display: grid;
+    grid-template-columns: repeat(2,65px) ;
+    gap: 9px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer i{
+    
+    color: rgb(0, 30, 255);
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+}
+dt a{
+    color: white;
+}
+dd{
+    color: darkgray;
+}
+footer>div p{
+    color: darkgray;
+
+}
+footer li{
+    margin-left: -30px;
+}

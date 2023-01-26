@@ -1,0 +1,248 @@
+main{
+    display: grid;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav img{
+    margin-top: 15px;
+    height: 20px;
+}
+nav{
+   display: flex;
+   justify-content: space-evenly;
+}
+nav ul li a{
+    color: black;
+    margin-left: 30px;
+    width: 40%;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul{
+    list-style-type: none;
+    display:flex; 
+    justify-content: center;
+}
+nav .n1{
+    margin-top: 20px;
+    font-weight:lighter;
+    margin-right:100px;
+}
+nav #b{
+    margin-left: -150px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 7px 40px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 2px solid rgb(245, 242, 242);
+}
+header{
+    display: flex;
+    background: linear-gradient(to right, rgb(47, 44, 214) 28%,rgba(215, 215, 215, 0.423) 28%, rgba(215, 215, 215, 0.423) 72%);
+}
+header img{
+    margin-top: 64px ;
+    margin-left: 180px;
+    width: 20%;
+    height: 90%;
+}
+header .browse{
+    position: relative;
+    margin-top: 140px;
+    font-size: 30px;
+    margin-left: 80px;
+    color: rgb(86, 85, 85);
+}
+.browse .span1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:80px;
+}
+header .span2{
+    font-size: 16px;
+}
+header .browse a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 238);
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 30px;
+    position: absolute;
+    top: 85%;
+}
+content{
+    display: flex;
+}
+content img{
+    margin-left: 10px;
+    width: calc(98% / 3);
+}
+.pro{
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px 10px;
+    margin: auto;
+    
+}
+.pro div{
+    text-align: center;
+}
+.head{
+    margin: 80px 0px 50px 170px;
+}
+.product p{
+    color: rgb(125, 125, 125);
+    font-weight: bold;
+}
+ .head h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.spa{
+    text-decoration: underline;
+    /* gap between line and text */
+    text-underline-offset: 20px; 
+    text-decoration-thickness: 2px;
+    text-decoration-color: blue;
+}
+.offer{
+    margin-top: 50px;
+    position: relative;
+    height: 45vh;
+    background: url(../files\ \(2\)/project/img/home/parallax-bg.png) no-repeat;
+    background-size: 100% 45vh;
+}
+.offer div{
+    position: absolute;
+    text-align: center;
+    top:5px;
+    left: 199px;
+    font-size: 50px;
+}
+.offer #sp1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.offer #sp2{
+    font-size: 17px;
+    word-spacing: -4px;
+    color: rgb(69, 65, 65);
+}
+.offer a{
+    color: white;
+    background-color: rgb(96, 96, 234);
+    font-size: medium;
+    padding: 14px 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 260px;
+    right: 110px;
+}
+.p3{
+    gap: 40px;
+    margin-bottom:170px;
+}
+.p3 div{
+    text-align: left;
+}
+h4 i{
+    color:rgb(65, 64, 64);
+}
+p i{
+    margin: 0px 2px 10px 25px;
+}
+footer{
+    overflow: hidden;
+    padding: 90px;
+    color: white;
+    display: grid;
+    background-color: rgb(16, 47, 94);
+    grid-template-columns: repeat(4,220px);
+    justify-content: center;
+    gap:10px 50px;
+    text-align: left;
+}
+footer div{
+    text-align: left;
+}
+footer a{
+    color: darkgray;
+}
+footer .img{
+    display: grid;
+    grid-template-columns: repeat(2,65px) ;
+    gap: 9px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer i{
+    
+    color: rgb(0, 30, 255);
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+}
+dt a{
+    color: white;
+}
+dd{
+    color: darkgray;
+}
+footer>div p{
+    color: darkgray;
+
+}
+footer li{
+    margin-left: -30px;
+}
+.get{
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    bottom: -502%;
+    height: 40vh;
+    left: 20%;
+    box-shadow: 1px 2px 4px  gray ;
+background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+.get h1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+.get p{
+    color: darkgrey;
+    margin-bottom: 50px;
+}
+.get input[type=submit]{
+    padding: 10px 25px;
+    background-color: rgb(68, 68, 238);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: 20px;
+
+}
+.get input[type=email]{
+    padding: 10px;
+    display: inline-block;
+    width: 290px;
+    border-radius: 50px;
+   
+    border: 1px solid rgb(212, 211, 211);
+    text-align: left;
+}
+input[type=email]::placeholder{
+    text-align: left;
+     color: rgb(187, 183, 183);
+}
